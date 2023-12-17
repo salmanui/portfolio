@@ -110,7 +110,6 @@
               </defs>
             </svg>
           </div>
-          
         </div>
       </div>
     </div>

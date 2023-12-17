@@ -20,7 +20,7 @@ export default defineNuxtConfig({
                   hid: 'icon',
                   rel: 'icon',
                   type: 'image/x-icon',
-                  href: '/images/favicon.ico',
+                  href: 'https://salmanui.github.io/portfolio/images/favicon.ico',
               },
               {
                   rel: 'stylesheet',
