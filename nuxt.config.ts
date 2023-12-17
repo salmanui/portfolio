@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   postcss: {
       plugins: {
           tailwindcss: {},
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   app: {
       head: {
           title: 'Salman Portfolio - Senior UI Developer',
-          meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer' }],
+          meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer With 5 Years of Experience.' }],
           // Font Family
           link: [
               {
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
               },
               {
                   rel: 'stylesheet',
-                  href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap',
+                  href: 'https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap',
               },
               {
                   rel: 'stylesheet',

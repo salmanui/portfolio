@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          "Nunito, sans-serif",
+          "Lexend, sans-serif",
           { fontFeatureSettings: '"cv03", "cv04", "cv11"' },
         ],
       },
