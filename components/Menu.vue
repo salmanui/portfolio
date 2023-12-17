@@ -14,7 +14,7 @@
             <div class="flex flex-shrink-0 items-center">
               <img
                 class="h-8 w-auto pr-4"
-                src="/images/logo.svg"
+                src="https://salmanui.github.io/portfolio/images/logo.svg"
                 alt="Your Company"
               />
             </div>
@@ -50,7 +50,7 @@
             class="hover:translate-y-[-5px] transition-all ease-linear duration-200"
           >
             <a
-              href="/resume/Salman-UI-Developer-Resume.pdf"
+              href="https://salmanui.github.io/portfolio/resume/Salman-UI-Developer-Resume.pdf"
               download="Salman-UI-Developer-Resume"
               target="_blank"
               class="bg-blue-600 text-white font-[600] lg:text-base text-[14px] md:px-9 px-8 py-4 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md"

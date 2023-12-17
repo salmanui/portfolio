@@ -64,7 +64,7 @@
         </div>
         <div class="lg:col-span-7 col-span-full">
           <div class="lg:absolute lg:right-28 lg:bottom-0 relative z-[1]">
-            <img src="/images/banner_image.png" class="h-[600px] px-2" />
+            <img src="https://salmanui.github.io/portfolio/images/banner_image.png" class="h-[600px] px-2" />
             <div class="absolute bottom-2 lg:left-[-20px]">
             <svg
               width="40"

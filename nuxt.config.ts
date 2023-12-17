@@ -3,11 +3,13 @@ export default defineNuxtConfig({
   ssr: false,
   postcss: {
       plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
+        tailwindcss: {
+            content: ['./components/**/*.{js,vue,ts}', './pages/**/*.vue'],
+        },
+        autoprefixer: {},
       },
   },
-  css: ['/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
   app: {
       head: {
           title: 'Salman Portfolio - Senior UI Developer',
