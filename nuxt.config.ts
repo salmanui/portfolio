@@ -15,7 +15,7 @@ export default defineNuxtConfig({
           title: 'Salman Portfolio - Senior UI Developer',
           meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer With 5 Years of Experience.' }],
           app: {
-              baseURL: '/portfolio/', // baseURL: '/<repository>/'
+              baseURL: '/', // baseURL: '/<repository>/'
               buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
               },
           // Font Family
