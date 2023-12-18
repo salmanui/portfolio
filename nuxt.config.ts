@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   router:{
     base:"/portfolio/"
   },
+  build: {
+    publicPath: '/portfolio/_nuxt/',
+  },
   postcss: {
       plugins: {
         tailwindcss: {
