@@ -73,3 +73,15 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+<!-- Gmail service id `service_vr7ayhq` -->
+
+<!-- emailjs.send("service_vr7ayhq","template_wg7xv02",{
+from_name: "Mohammad Moosa",
+to_name: "Mohammad Salman",
+email: "moosa@gmail.com",
+phone_number: "9618379105",
+message: "Hiring for UI Developer with 5 years Experience. ",
+company_name: "MANTRA",
+reply_to: "salmanuidev1407@gmail.com",
+}); -->

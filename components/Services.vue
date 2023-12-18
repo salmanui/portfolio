@@ -58,7 +58,7 @@
               <h3 class="mt-6 text-[22px] font-[600] text-gray-900 group-hover/service:text-white">
                 {{ item.title }}
               </h3>
-              <dl class="mt-3 max-h-[140px] overflow-auto scrollbar-thin">
+              <dl class="mt-3 lg:max-h-[140px] overflow-auto scrollbar-thin">
                 <dd class="text-base leading-[1.7] text-gray-500 font-medium group-hover/service:text-white/80">
                   {{ item.description }}
                 </dd>
@@ -197,5 +197,8 @@ const services = [
 <style>
 .shadow-box {
   box-shadow: 0px 11px 41px -11px rgba(9, 14, 52, 0.1);
+}
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
 }
 </style>

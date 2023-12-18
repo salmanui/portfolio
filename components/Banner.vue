@@ -56,7 +56,7 @@
           </p>
           <div class="hover:translate-y-[-5px] transition-all ease-linear duration-200">
             <a href="#contact"
-              class="menu-scroll bg-blue-600 text-white font-[600] text-base px-8 py-4 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md "
+              class="menu-scroll bg-blue-600 text-white font-[600] text-base px-8 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md "
             >
               Hire Me
             </a>

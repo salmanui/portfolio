@@ -31,7 +31,7 @@ export default defineNuxtConfig({
                   hid: 'icon',
                   rel: 'icon',
                   type: 'image/x-icon',
-                  href: 'https://salmanui.github.io/portfolio/images/favicon.ico',
+                  href: '/images/favicon.ico',
               },
               {
                   rel: 'stylesheet',
