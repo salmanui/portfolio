@@ -14,6 +14,10 @@ export default defineNuxtConfig({
       head: {
           title: 'Salman Portfolio - Senior UI Developer',
           meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer With 5 Years of Experience.' }],
+          app: {
+              baseURL: '/nuxt-github-pages/', // baseURL: '/<repository>/'
+              buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
+              },
           // Font Family
           link: [
               {
