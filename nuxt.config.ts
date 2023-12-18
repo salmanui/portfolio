@@ -1,10 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  target: 'static',
-  router: {
-    base: '/portfolio/'
-  },
+   nitro: {
+        minify: true,
+        timing: true,
+        sourceMap: false,
+        compressPublicAssets: {
+            gzip: true,
+            brotli: true,
+        },
+        preset: 'vercel',
+    },
   postcss: {
       plugins: {
         tailwindcss: {
