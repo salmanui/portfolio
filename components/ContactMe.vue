@@ -39,7 +39,7 @@
                 <button
             class="bg-blue-600 text-white font-[600] text-base px-9 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md hover:translate-y-[-5px]"
           >
-            Contact Me
+            Hire Me
           </button>
             </div>
         </div>

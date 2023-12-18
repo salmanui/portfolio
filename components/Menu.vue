@@ -14,7 +14,7 @@
             <div class="flex flex-shrink-0 items-center">
               <img
                 class="h-8 w-auto pr-4"
-                src="https://salmanui.github.io/portfolio/images/logo.svg"
+                src="/images/logo.svg"
                 alt="Your Company"
               />
             </div>
@@ -42,7 +42,7 @@
               <a
                 href="#contact"
                 class="menu-scroll inline-flex items-center t px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
-                >Contact</a
+                >Contact Me</a
               >
             </div>
           </div>
@@ -50,7 +50,7 @@
             class="hover:translate-y-[-5px] transition-all ease-linear duration-200"
           >
             <a
-              href="https://salmanui.github.io/portfolio/resume/Salman-UI-Developer-Resume.pdf"
+              href="/resume/Salman-UI-Developer-Resume.pdf"
               download="Salman-UI-Developer-Resume"
               target="_blank"
               class="bg-blue-600 text-white font-[600] lg:text-base text-[14px] md:px-9 px-8 py-4 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md"
@@ -68,7 +68,7 @@
           <div>
             <a
               href="#home"
-              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
+              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-house text-xl"></i>
               Home</a
@@ -77,7 +77,7 @@
           <div>
             <a
               href="#about"
-              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
+              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-user text-xl"></i>
               About</a
@@ -86,7 +86,7 @@
           <div>
             <a
             href="#services"
-              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
+              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-gear-code text-xl"></i>
               Services</a
@@ -95,7 +95,7 @@
           <div>
             <a
             href="#projects"
-              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
+              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-chart-simple text-xl"></i>
               Projects</a
@@ -104,10 +104,10 @@
           <div>
             <a
             href="#contact"
-              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
+              class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-mobile-button text-xl"></i>
-              Contact</a
+              Contact Me</a
             >
           </div>
         </div>
