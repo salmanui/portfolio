@@ -1,13 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  target: 'static',
-  router:{
-    base:"/portfolio/"
-  },
-  build: {
-    publicPath: '/portfolio/_nuxt/',
-  },
   postcss: {
       plugins: {
         tailwindcss: {
@@ -22,10 +15,8 @@ export default defineNuxtConfig({
       head: {
           title: 'Salman Portfolio - Senior UI Developer',
           meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer With 5 Years of Experience.' }],
-          app: {
-              baseURL: '/portfolio', // baseURL: '/<repository>/'
-              buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
-            },
+          baseURL: '/portfolio',
+          buildAssetsDir: 'assets',
         
         link: [
               {
