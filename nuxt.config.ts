@@ -9,6 +9,9 @@ export default defineNuxtConfig({
         autoprefixer: {},
       },
   },
+  router:{
+    base:"/portfolio/"
+  },
   css: ['~/assets/css/main.css'],
   app: {
       head: {
