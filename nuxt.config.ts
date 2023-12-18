@@ -16,6 +16,8 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
   app: {
+       baseURL: '/portfolio', 
+       buildAssetsDir: 'assets',
       head: {
           title: 'Salman Portfolio - Senior UI Developer',
           meta: [{ name: 'description', content: 'Hey, I am Mohammad Salman Professional UI Developer With 5 Years of Experience.' }],
