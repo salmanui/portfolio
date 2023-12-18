@@ -43,6 +43,7 @@ export default defineNuxtConfig({
                   href: 'https://kit.fontawesome.com/16d7faf68e.css',
               },
           ],
+        script: [{ src: 'https://cdn.tailwindcss.com' }],
       },
   },
 })
