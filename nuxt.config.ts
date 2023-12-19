@@ -1,6 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
+  modules: [ '@nuxtjs/robots',],
+  robots: [
+    {
+        UserAgent: 'Googlebot',
+        Disallow: '/user',
+    },
+    {
+        UserAgent: '*',
+        Disallow: '/admin',
+    },
+    // { Sitemap: (req) => `https://${req.headers.host}/sitemap.xml` },  //sites maps need to be added
+],
    nitro: {
         minify: true,
         timing: true,

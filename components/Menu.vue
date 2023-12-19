@@ -15,7 +15,7 @@
               <img
                 class="h-8 w-auto pr-4"
                 src="/images/logo.svg"
-                alt="Your Company"
+                alt="Logo"
               />
             </div>
             <div class="hidden sm:ml-6 lg:flex sm:space-x-10">
@@ -53,7 +53,7 @@
               href="/resume/Salman-UI-Developer-Resume.pdf"
               download="Salman-UI-Developer-Resume"
               target="_blank"
-              class="bg-blue-600 text-white font-[600] lg:text-base text-[14px] md:px-9 px-8 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md"
+              class="bg-blue-600 text-white font-[600] lg:text-base text-[14px] md:px-9 px-5 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md"
             >
               Download Resume
             </a>

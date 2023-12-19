@@ -5,12 +5,12 @@
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-lg font-semibold">Get in Touch</span>
-          <span class="lg:text-[45px] text-[30px] font-bold"
-            >Contact With Me
+          <span class="text-blue-600 text-base font-semibold">Contact Me</span>
+          <span class="lg:text-[40px] text-[30px] font-bold"
+            >Get in Touch
           </span>
         </h1>
-        <p class="text-base text-gray-400 max-w-lg mx-auto leading-[1.7]">
+        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
           Feel free to get in touch with me. I am always open to discussing new
           projects, creative ideas or opportunities to be a part of your
           visions.

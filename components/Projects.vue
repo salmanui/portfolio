@@ -5,12 +5,12 @@
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-lg font-semibold"
+          <span class="text-blue-600 text-base font-semibold"
             >Creative Portfolios</span
           >
-          <span class="lg:text-[45px] text-[30px] font-bold">Recent Works</span>
+          <span class="lg:text-[40px] text-[30px] font-bold">Recent Works</span>
         </h1>
-        <p class="text-base text-gray-400 max-w-lg mx-auto leading-[1.7]">
+        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
           Projects developing creative user interface websites,
           implementing and enhancing mobile applications with innovative user
           experiences.
@@ -25,24 +25,24 @@
             :key="index"
             class="project"
           >
-            <div class="relative w-full overflow-hidden rounded-2xl bg-gray-100 border">
+            <div class="relative w-full overflow-hidden rounded-[10px] bg-gray-100 border shadow-md">
               <img
                 :src="item.imageUrl"
-                alt=""
-                class="aspect-[16/9] hover:scale-110 transition-all ease-in-out duration-500  w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                :alt=" item.title"
+                class="aspect-[16/9] hover:scale-110 transition-all ease-in-out duration-500  w-full rounded-[10px] bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
               />
             </div>
             <div class="max-w-xl">
               <div class="group relative">
                 <h3
-                  class="mt-5 text-lg font-semibold leading-6 text-gray-900 group-hover:text-blue-600 transition-all ease-linear duration-200"
+                  class="mt-6 text-[20px] font-bold leading-6 text-gray-900 group-hover:text-blue-600 transition-all ease-linear duration-200"
                 >
                   <a :href="item.href" target="_blank">
                     <span class="absolute inset-0" />
                     {{ item.title }}
                   </a>
                 </h3>
-                <p class="mt-5 line-clamp-4 text-base leading-6 text-gray-500">
+                <p class="mt-5 line-clamp-4 text-base leading-6 text-gray-500 font-medium">
                   {{ item.description }}
                 </p>
               </div>

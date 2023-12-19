@@ -4,22 +4,24 @@
       <div class="grid grid-cols-12 lg:gap-20 gap-4">
         <div class="lg:col-span-6 col-span-full">
           <h1 class="flex flex-col">
-            <span class="text-blue-600 text-lg font-semibold"> ABOUT ME</span>
-            <span class="lg:text-[45px] text-[30px] font-bold"
+            <span class="text-blue-600 text-base font-semibold"> About Me</span>
+            <span
+              class="lg:text-[40px] text-[30px] font-bold leading-[1.25] mb-4"
               >Better development, better experience</span
             >
           </h1>
           <p class="text-gray-500 font-medium text-base leading-[1.75]">
-            Accomplished UI, CSS, and JavaScript frameworks developer with over
-            4 years of hands-on experience, proficient in translating design
-            concepts into interactive and responsive web applications. Expertise
-            in leveraging CSS for styling, JavaScript for functionality, and
-            popular frameworks to enhance overall development efficiency.
+            Experienced in UI, CSS, and JavaScript frameworks developer with a
+            proven track record of over 4 years, adept at transforming design
+            concepts into dynamic and responsive web applications. Skilled in
+            utilizing Tailwind UI and BootStrap for effective styling, harnessing JavaScript for
+            robust functionality, and implementing popular frameworks to
+            optimize the overall development process.
           </p>
         </div>
         <div class="lg:col-span-6 col-span-full">
           <div>
-            <h3 class="text-3xl font-bold mb-4">Connect With Me</h3>
+            <h3 class="lg:text-[40px] text-[30px] font-bold mb-4">Connect With Me</h3>
             <p class="text-gray-500 font-medium text-base mb-10 leading-[1.75]">
               "Welcome to my professional space! I'm passionate about my
               profiles on social media, dedicated to my professional career.
@@ -40,12 +42,13 @@
                 class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
-              <a href="#"
+              <a
+                href="#"
                 class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-square-x-twitter"></i
               ></a>
               <a
-              href="#"
+                href="#"
                 class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-youtube"></i
               ></a>

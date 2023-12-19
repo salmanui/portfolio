@@ -3,8 +3,8 @@
     <footer class="bg-[#090e34]">
       <div class="2xl:max-w-[1320px] w-[95vw] mx-auto px-4 py-5 mb-[90px] lg:mb-0">
         <div class="md:flex justify-between items-center">
-          <p class="text-white text-[16px] font-[500] md:mb-0 mb-3">
-            All rights reserved by © Salman Portfolio {{ currentYear }}
+          <p class="text-white text-base font-medium md:mb-0 mb-3">
+            &#169; Copyright  {{ currentYear }} imsalman.in All rights reserved.
           </p>
           <div class="flex space-x-3">
               <a

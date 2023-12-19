@@ -5,12 +5,12 @@
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-lg font-semibold"
+          <span class="text-blue-600 text-base font-semibold"
             >Education & Experience</span
           >
-          <span class="lg:text-[45px] text-[30px] font-bold">My Resume</span>
+          <span class="lg:text-[40px] text-[30px] font-bold">My Resume</span>
         </h1>
-        <p class="text-base text-gray-400 max-w-lg mx-auto leading-[1.7]">
+        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
           UI developer with five years of hands-on experience, proficient in
           crafting visually appealing and highly interactive user interfaces.
         </p>
@@ -39,7 +39,7 @@
                 class="bg-blue-600 text-white font-[600] leading-[1] text-[12px] inline-flex justify-center items-center py-2 px-4 rounded-full"
                 >Aug 2022 - Present</span
               >
-              <p class="mt-5 text-gray-500 leading-[1.75]">I have around 4+ years of work experience in UI Developer at Mantra. I have worked on my relevant technical skills like e.g: HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap, SASS, Tailwind CSS, Tailwind UI, JavaScript, Vue. </p>
+              <p class="mt-5 text-gray-500 font-medium leading-[1.75]">I have around 4+ years of work experience in UI Developer at Mantra. I have worked on my relevant technical skills like e.g: HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap, SASS, Tailwind CSS, Tailwind UI, JavaScript, Vue. </p>
             </div>
           </div>
           <div class="px-4 lg:w-[50%] w-full"></div>
@@ -63,7 +63,7 @@
                 class="bg-blue-600 text-white font-[600] leading-[1] text-[12px] inline-flex justify-center items-center py-2 px-4 rounded-full"
                 >Apr 2019 - Jul 2022</span
               >
-              <p class="mt-5 text-gray-500 leading-[1.75]">Developing websites and web applications using technical skills like HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap, SASS, Tailwind CSS, Tailwind UI, JavaScript, Vue.</p>
+              <p class="mt-5 text-gray-500 font-medium leading-[1.75]">Developing websites and web applications using technical skills like HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap, SASS, Tailwind CSS, Tailwind UI, JavaScript, Vue.</p>
             </div>
           </div>
          
@@ -86,7 +86,7 @@
                 class="bg-blue-600 text-white font-[600] leading-[1] text-[12px] inline-flex justify-center items-center py-2 px-4 rounded-full"
                 >Jan 2019 - Mar 2019</span
               >
-              <p class="mt-5 text-gray-500 leading-[1.75]">Developing websites using HTML/HTML5, CSS/CSS3, Flexbox, Grid Systems and Bootstrap. </p>
+              <p class="mt-5 text-gray-500 font-medium leading-[1.75]">Developing websites using HTML/HTML5, CSS/CSS3, Flexbox, Grid Systems and Bootstrap. </p>
             </div>
           </div>
           <div class="px-4 lg:w-[50%] w-full"></div>
@@ -110,7 +110,7 @@
                 class="bg-blue-600 text-white font-[600] leading-[1] text-[12px] inline-flex justify-center items-center py-2 px-4 rounded-full"
                 >Jun 2012 - May 2017</span
               >
-              <p class="mt-5 text-gray-500 leading-[1.75]">As I participated in various organizations and learnt team work. In Robotics I learnt innovative things during workshops.</p>
+              <p class="mt-5 text-gray-500 font-medium leading-[1.75]">As I participated in various organizations and learnt team work. In Robotics I learnt innovative things during workshops.</p>
             </div>
           </div>
         </div>
