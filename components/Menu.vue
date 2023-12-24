@@ -13,7 +13,7 @@
           <div class="flex">
             <div class="flex flex-shrink-0 items-center">
               <img
-                class="h-8 w-auto pr-4"
+                class="h-10 w-auto pr-4"
                 src="/images/logo.svg"
                 alt="Logo"
               />
@@ -30,9 +30,9 @@
                 >About</a
               >
               <a
-                href="#services"
+                href="#skills"
                 class="menu-scroll inline-flex items-center t px-1 pt-1 text-base font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
-                >Services</a
+                >Skills</a
               >
               <a
                 href="#projects"
@@ -85,11 +85,11 @@
           </div>
           <div>
             <a
-            href="#services"
+            href="#skills"
               class="flex flex-col justify-center menu-scroll items-center px-1 pt-1 text-[15px] font-medium text-[#090e34] hover:text-blue-600 transition-all ease-linear duration-200"
             >
               <i class="fa-solid fa-gear-code text-xl"></i>
-              Services</a
+              Skills</a
             >
           </div>
           <div>

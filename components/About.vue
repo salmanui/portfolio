@@ -4,15 +4,17 @@
       <div class="grid grid-cols-12 lg:gap-20 gap-4">
         <div class="lg:col-span-6 col-span-full">
           <h1 class="flex flex-col">
-            <span class="text-blue-600 text-base font-semibold"> About Me</span>
             <span
-              class="lg:text-[40px] text-[30px] font-bold leading-[1.25] mb-4"
+              class="lg:text-[36px]  text-[30px] font-bold leading-[1.25] mb-4"
               >Better development, better experience</span
             >
           </h1>
-          <p class="text-gray-500 font-medium text-base leading-[1.75]">
-            Experienced in UI, CSS, and JavaScript frameworks developer with a
-            proven track record of over 4 years, adept at transforming design
+          <p class="text-gray-500 font-normal text-base leading-[1.75]">
+            Experienced in UI development with a
+            proven track record of over {{ experience.years }}
+            {{ experience.years > 1 ? "years" : "year" }}
+            {{ experience.months }}
+            {{ experience.months > 1 ? "months" : "month" }}, adept at transforming design
             concepts into dynamic and responsive web applications. Skilled in
             utilizing Tailwind UI and BootStrap for effective styling, harnessing JavaScript for
             robust functionality, and implementing popular frameworks to
@@ -21,8 +23,8 @@
         </div>
         <div class="lg:col-span-6 col-span-full">
           <div>
-            <h3 class="lg:text-[40px] text-[30px] font-bold mb-4">Connect With Me</h3>
-            <p class="text-gray-500 font-medium text-base mb-10 leading-[1.75]">
+            <h3 class="lg:text-[36px] leading-[1.7] text-[30px] font-bold mb-4">Connect With Me</h3>
+            <p class="text-gray-500 font-normal text-base mb-10 leading-[1.75]">
               "Welcome to my professional space! I'm passionate about my
               profiles on social media, dedicated to my professional career.
               Let's connect for insightful discussions, collaboration
@@ -33,23 +35,23 @@
               <a
                 href="https://www.linkedin.com/in/mohammad-salman-679022b2/"
                 target="_blank"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
               <a
                 href="https://www.facebook.com/ImMohammadSalman"
                 target="_blank"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
               <a
                 href="#"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-square-x-twitter"></i
               ></a>
               <a
                 href="#"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-200 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-youtube"></i
               ></a>
             </div>
@@ -90,6 +92,24 @@
   </div>
 </template>
 
-<script></script>
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
+const startDate = new Date("2019-01-21"); // Replace with your actual start date
+const currentDate = new Date();
+const experience = ref({ years: 0, months: 0 });
+
+onMounted(() => {
+  //Experience block
+  const diffInMilliseconds = currentDate - startDate;
+  experience.value.years = Math.floor(
+    diffInMilliseconds / (365.25 * 24 * 60 * 60 * 1000)
+  );
+  experience.value.months = Math.floor(
+    (diffInMilliseconds % (365.25 * 24 * 60 * 60 * 1000)) /
+      (30.44 * 24 * 60 * 60 * 1000)
+  );
+});
+</script>
+
 
 <style></style>

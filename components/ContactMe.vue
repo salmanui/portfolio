@@ -5,12 +5,11 @@
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-base font-semibold">Contact Me</span>
-          <span class="lg:text-[40px] text-[30px] font-bold"
+          <span class="lg:text-[36px] leading-[1.7] text-[30px] font-bold"
             >Get in Touch
           </span>
         </h1>
-        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
+        <p class="text-base text-gray-500 font-medium max-w-lg mx-auto leading-[1.7]">
           Feel free to get in touch with me. I am always open to discussing new
           projects, creative ideas or opportunities to be a part of your
           visions.
@@ -39,7 +38,7 @@
                 <button type="submit"
             class="bg-blue-600 text-white font-[600] text-base px-9 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md hover:translate-y-[-5px]"
           >
-            Hire Me
+            Send
           </button>
             </div>
         </div>

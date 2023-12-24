@@ -1,29 +1,29 @@
 <template>
-  <div class="relative">
+  <div>
     <div
-      class="2xl:max-w-[1320px] w-[95vw] mx-auto px-4 border-t border-gray-200 lg:pt-[120px] lg:pb-[90px] py-[70px]"
+      class="2xl:max-w-[1320px] w-[95vw] mx-auto px-4 lg:pt-[120px] lg:pb-[90px] py-[70px]"
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-base font-semibold"
-            >What I Offer?</span
-          >
-          <span class="lg:text-[40px] text-[30px] font-bold">My Services</span>
+          <span class="lg:text-[36px] leading-[1.7] text-[30px] font-bold">My Skills</span>
         </h1>
-        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
-          Communicate the value proposition of this service and the positive
-          impact it can have on our clients' goals.
+        <p
+          class="text-base text-gray-500 font-normal max-w-lg mx-auto leading-[1.7]"
+        >
+          Skilled in front-end web development, specializing in creating modern,
+          responsive designs with a focus on user experience.
         </p>
       </div>
+
       <div>
         <ul
           role="list"
-          class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4"
+          class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6"
         >
           <li
-            v-for="(item, index) in services"
+            v-for="(item, index) in skills"
             :key="index"
-            class="col-span-1 border border-gray-100 hover:bg-blue-600 group/service rounded-lg bg-white text-center shadow-box"
+            class="col-span-1 border border-gray-100 hover:bg-blue-600 group/service skills-card rounded-lg bg-white text-center shadow-box"
           >
             <div class="p-8 relative">
               <span class="absolute top-0 right-0">
@@ -52,26 +52,19 @@
               </span>
               <div class="flex justify-center">
                 <span
-                  class="w-[80px] h-[80px] bg-blue-600 group-hover/service:bg-white rounded-full flex justify-center items-center"
+                  class="w-[80px] h-[80px] bg-blue-600 p-4 group-hover/service:bg-white skills-icon rounded-full flex justify-center items-center"
                 >
                   <i
-                    class="text-[30px] text-white group-hover/service:text-blue-600"
-                    :class="item.icon"
+                    class="text-[30px] text-white group-hover/service:text-blue-600 icon-skill"
+                    :class="item.iconClass"
                   ></i>
                 </span>
               </div>
               <h3
-                class="mt-6 text-[22px] font-bold text-gray-900 group-hover/service:text-white"
+                class="mt-6 text-[16px] font-semibold text-gray-900 group-hover/service:text-white"
               >
                 {{ item.title }}
               </h3>
-              <dl class="mt-3 lg:max-h-[140px] overflow-auto scrollbar-thin">
-                <dd
-                  class="text-base leading-[1.7] text-gray-500 font-medium group-hover/service:text-white/80"
-                >
-                  {{ item.description }}
-                </dd>
-              </dl>
               <span class="absolute bottom-1 left-1">
                 <svg
                   width="23"
@@ -171,73 +164,52 @@
         </ul>
       </div>
     </div>
-    <div class="absolute bottom-0" aria-label="shape" name="shape">
-      <svg
-        width="143"
-        height="138"
-        viewBox="0 0 143 138"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle
-          cx="25"
-          cy="118"
-          r="101"
-          stroke="url(#paint0_linear_52:83)"
-          stroke-width="34"
-        ></circle>
-        <defs>
-          <linearGradient
-            id="paint0_linear_52:83"
-            x1="-12.7969"
-            y1="-37.3359"
-            x2="99.2109"
-            y2="173.773"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#4A6CF7"></stop>
-            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const services = [
+const skills = [
   {
-    title: "User Research",
-    icon: "fa-solid fa-user-magnifying-glass",
-    description:
-      "User research involves gathering insights and feedback from target users to inform product design and development decisions.",
+    iconClass: "fa-brands fa-html5",
+    title: "HTML5",
   },
   {
-    title: "UI Development",
-    icon: "fa-solid fa-code",
-    description:
-      "I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is UI development, HTML, CSS, Bootstrap, and Tailwind CSS building small and medium web apps, animations, and coding interactive layouts.",
+    iconClass: "fa-brands fa-css3-alt",
+    title: "CSS3",
   },
   {
+    iconClass: "fa-brands fa-bootstrap",
+    title: "Bootstrap",
+  },
+  {
+    iconClass: "fa-brands fa-sass",
+    title: "Sass",
+  },
+  {
+    iconClass: "fa-brands fa-js",
     title: "Javascript",
-    icon: "fa-brands fa-square-js",
-    description:
-      "I create successful dynamic functionality websites and application using JavaScript that are fast, easy to use, and built with best practices.",
   },
   {
+    iconClass: "fa-brands fa-vuejs",
     title: "Vuejs",
-    icon: "fa-brands fa-vuejs",
-    description:
-      "I create successful website templates using vue.js for building user interfaces, known for its simplicity, flexibility, and efficient integration into projects of varying scales.",
   },
 ];
 </script>
 
 <style>
-.shadow-box {
-  box-shadow: 0px 11px 41px -11px rgba(9, 14, 52, 0.1);
+.skills-card .skills-icon {
+  position: relative;
+  transition: all 0.5s ease;
+  z-index: 1;
 }
-.scrollbar-thin::-webkit-scrollbar {
-  width: 4px;
+.skills-card .skills-icon .icon-skill {
+  transition: all 0.5s ease;
+}
+.skills-card:hover .skills-icon {
+  transform: rotate(45deg);
+}
+.skills-card:hover .skills-icon .icon-skill {
+  transform: scale(0.8) rotate(-45deg);
+  transition: all 0.5s ease;
 }
 </style>

@@ -5,12 +5,9 @@
     >
       <div class="text-center mb-[70px]">
         <h1 class="flex flex-col">
-          <span class="text-blue-600 text-base font-semibold"
-            >Education & Experience</span
-          >
-          <span class="lg:text-[40px] text-[30px] font-bold">My Resume</span>
+          <span class="lg:text-[36px] leading-[1.7] text-[30px] font-bold">Education & Experience</span>
         </h1>
-        <p class="text-base text-gray-400 font-medium max-w-lg mx-auto leading-[1.7]">
+        <p class="text-base text-gray-500 font-medium max-w-lg mx-auto leading-[1.7]">
           UI developer with five years of hands-on experience, proficient in
           crafting visually appealing and highly interactive user interfaces.
         </p>
