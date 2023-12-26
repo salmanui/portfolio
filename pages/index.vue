@@ -7,8 +7,8 @@
     <div id="about" class="lg:pt-[145px] lg:pb-[120px] py-[70px] relative">
       <About/>
     </div>
-    <div id="services" class="relative">
-      <Services/>
+    <div id="skills" class="relative">
+      <Skills/>
     </div>
     <div id="projects" class="relative bg-[#f8f9ff]">
       <Projects/>
@@ -22,6 +22,7 @@
     <div>
       <Footer />
     </div>
+    <ScrollTop/>
   </div>
 </template>
 

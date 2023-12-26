@@ -10,22 +10,22 @@
               <a
                 href="https://www.linkedin.com/in/mohammad-salman-679022b2/"
                 target="_blank"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
               <a
                 href="https://www.facebook.com/ImMohammadSalman"
                 target="_blank"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
               <a href="#"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-square-x-twitter"></i
               ></a>
               <a
               href="#"
-                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-400 hover:bg-blue-600 hover:text-white rounded-full"
+                class="w-[40px] h-[40px] cursor-pointer border border-gray-100/20 flex justify-center items-center shadow-md transition-all ease-linear duration-200 hover:translate-y-[-4px] text-gray-500 hover:bg-blue-600 hover:text-white rounded-full"
                 ><i class="fa-brands fa-youtube"></i
               ></a>
             </div>

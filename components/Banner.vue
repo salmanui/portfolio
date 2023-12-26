@@ -34,37 +34,29 @@
       <div class="grid grid-cols-12 gap-8">
         <div class="lg:col-span-5 col-span-full relative">
           <h1 class="flex flex-col">
-            <span class="text-blue-600 text-base font-semibold">
+            <span class="text-blue-600 text-base font-medium">
               Hey There 👋 I am</span
             >
             <span class="text-[45px] font-bold">Mohammad Salman</span>
           </h1>
-          <h2 class="text-gray-400 text-xl font-semibold mb-5">
+          <h2 class="text-gray-500 text-xl font-medium mb-5">
             Professional
             <span class="text-blue-600">
               {{ typedText }}
             </span>
           </h2>
-          <p class="text-gray-500 font-medium text-base mb-10 leading-[1.75]">
+          <p class="text-gray-500 font-normal text-base mb-10 leading-[1.75]">
             I have around {{ experience.years }}
             {{ experience.years > 1 ? "years" : "year" }}
             {{ experience.months }}
             {{ experience.months > 1 ? "months" : "month" }} of work experience
             in UI Developer at Mantra. I have worked on my relevant technical
-            skills like e.g: HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap,
-            SASS, Tailwind CSS, Tailwind UI, JavaScript, Vue.
+            skills like e.g: HTML/HTML5, CSS/CSS3, Bootstrap, Vue Bootstrap, Tailwind CSS, Tailwind UI, JavaScript, Vuejs.
           </p>
-          <div class="hover:translate-y-[-5px] transition-all ease-linear duration-200">
-            <a href="#contact"
-              class="menu-scroll bg-blue-600 text-white font-[600] text-base px-8 py-3 hover:bg-blue-700 rounded-full transition-all ease-linear duration-200 hover:shadow-md "
-            >
-              Hire Me
-            </a>
-          </div>
         </div>
         <div class="lg:col-span-7 col-span-full">
           <div class="lg:absolute lg:right-28 lg:bottom-0 relative z-[1]">
-            <img src="/images/banner_image.png" alt="Banner Image" class="h-[600px] px-2" />
+            <img src="/images/banner_image.png" alt="Banner Image" class="h-[600px]" />
             <div class="absolute bottom-2 lg:left-[-20px]">
             <svg
               width="40"
@@ -139,16 +131,12 @@ onMounted(() => {
   const speed = 100;
 
   function type() {
-    if (index === text.length) {
-      index = 0;
-      typedText.value = "";
+    if (index < text.length) {
+      typedText.value += text.charAt(index);
+      index++;
+      setTimeout(type, speed);
     }
-
-    typedText.value += text.charAt(index);
-    index++;
-    setTimeout(type, speed);
   }
-
   type();
 });
 </script>
